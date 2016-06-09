@@ -14,7 +14,7 @@ For reference see below screenshot:
 You will only need to use one attribute i.e. **fontName**
 
 ```java
-custom:fontName="Your custom fontName with extention"
+custom:fontName="Your custom fontName with extension"
 ```
 Here font file can be of any type **ttf** or **otf**
 
