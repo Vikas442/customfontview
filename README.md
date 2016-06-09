@@ -1,6 +1,13 @@
 # Custom Font View
 
+![ScreenShot](screenshots/Screenshot.png)
+
 This library provides set of custom views which are easy to use to apply your custom font.
+
+First of all place all your custom font files in directory  **assets/fonts**
+For reference see below screenshot:
+
+![ScreenShot](screenshots/fonts_location.png)
 
 ## Attributes
 
@@ -82,7 +89,16 @@ Here font file can be of any type **ttf** or **otf**
 		custom:fontName="AdobeArabic-Regular.otf"/>
 ```
 
-Apart from above this library containe one move custom view i.e. **UIProgressBar** which can be used to show circular progress bar with color of your choice.
+Also you can change fonts programmatically as mentioned below:
+
+Take reference of these view and call method as
+
+```java
+UITextView textView=new UITextView(this);
+textView.setFontName("Helvetica.ttf");
+```
+
+Apart from above this library contains one move custom view i.e. **UIProgressBar** which can be used to show circular progress bar with color of your choice.
 
 ##UIProgressBar
 
