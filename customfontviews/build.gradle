@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'customfont'
+
+    publishedGroupId = 'com.vikasverma.customfontviews'
+    libraryName = 'CustomFontView'
+    artifact = 'customfont'
+
+    libraryDescription = 'Library to provide custom fonts easily to views like TextView, Button, CheckBox, RadioButton'
+
+    siteUrl = 'https://github.com/Vikas442/customfontview'
+    gitUrl = 'https://github.com/Vikas442/customfontview.git'
+
+    libraryVersion = '1.0'
+
+    developerId = 'Vikas442'
+    developerName = 'Vikas Verma'
+    developerEmail = 'verma.vikas442@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
@@ -28,3 +52,5 @@ dependencies {
     androidTestCompile 'com.android.support.test:runner:0.5'
     androidTestCompile 'com.android.support:support-annotations:23.4.0'
 }
+//apply from: 'https://raw.githubusercontent.com/Vikas442/JCenter/master/installv1.gradle'
+//apply from: 'https://raw.githubusercontent.com/Vikas442/JCenter/master/bintrayv1.gradle'
