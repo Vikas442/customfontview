@@ -10,8 +10,8 @@ ext {
 
     libraryDescription = 'Library to provide custom fonts easily to views like TextView, Button, CheckBox, RadioButton'
 
-    siteUrl = 'https://github.com/Vikas442/customfontview'
-    gitUrl = 'https://github.com/Vikas442/customfontview.git'
+    siteUrl = 'https://github.com/vikas442/customfontview'
+    gitUrl = 'https://github.com/vikas442/customfontview.git'
 
     libraryVersion = '1.0'
 
@@ -53,5 +53,5 @@ dependencies {
     androidTestCompile 'com.android.support:support-annotations:23.4.0'
 }
 
-apply from: 'https://raw.githubusercontent.com/Vikas442/customfontview/master/jcenter/bintrayv1.gradle'
-apply from: 'https://raw.githubusercontent.com/Vikas442/customfontview/master/jcenter/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/vikas442/customfontview/master/jcenter/bintrayv1.gradle'
+apply from: 'https://raw.githubusercontent.com/vikas442/customfontview/master/jcenter/installv1.gradle'
