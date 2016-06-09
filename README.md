@@ -98,7 +98,7 @@ UITextView textView=new UITextView(this);
 textView.setFontName("Helvetica.ttf");
 ```
 
-Apart from above this library contains one move custom view i.e. **UIProgressBar** which can be used to show circular progress bar with color of your choice.
+Apart from above this library contains one more custom view i.e. **UIProgressBar** which can be used to show circular progress bar with color of your choice.
 
 ##UIProgressBar
 
