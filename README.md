@@ -7,7 +7,7 @@ This library provides set of custom views which are easy to use to apply your cu
 First of all place all your custom font files in directory  **assets/fonts**
 For reference see below screenshot:
 
-![ScreenShot](screenshots/Screenshot.png)
+![ScreenShot](screenshots/fontsLocation.png)
 
 ## Attributes
 
