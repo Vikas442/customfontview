@@ -9,6 +9,31 @@ For reference see below screenshot:
 
 ![ScreenShot](screenshots/fontsLocation.png)
 
+##How to use this library into your project
+
+## Maven project
+
+```java
+<dependency>
+  <groupId>com.vikasverma.customfontviews</groupId>
+  <artifactId>customfontviews</artifactId>
+  <version>1.0</version>
+  <type>pom</type>
+</dependency>
+```
+## Gradle project
+
+```java
+compile 'com.vikasverma.customfontviews:customfontviews:1.0'
+```
+
+## Ivy Project
+
+```java
+<dependency org='com.vikasverma.customfontviews' name='customfontviews' rev='1.0'>
+  <artifact name='$AID' ext='pom'></artifact>
+</dependency>
+```
 ## Attributes
 
 You will only need to use one attribute i.e. **fontName**
